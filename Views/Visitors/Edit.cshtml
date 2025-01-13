@@ -1,0 +1,74 @@
+﻿@model MyFitnessLife.Models.Visitor
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Visitor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Visitorid" />
+            <div class="form-group">
+                <label asp-for="IpAddress" class="control-label"></label>
+                <input asp-for="IpAddress" class="form-control" />
+                <span asp-validation-for="IpAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Useragent" class="control-label"></label>
+                <input asp-for="Useragent" class="form-control" />
+                <span asp-validation-for="Useragent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Referralurl" class="control-label"></label>
+                <input asp-for="Referralurl" class="form-control" />
+                <span asp-validation-for="Referralurl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Visittime" class="control-label"></label>
+                <input asp-for="Visittime" class="form-control" />
+                <span asp-validation-for="Visittime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sessionid" class="control-label"></label>
+                <input asp-for="Sessionid" class="form-control" />
+                <span asp-validation-for="Sessionid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pagevisited" class="control-label"></label>
+                <input asp-for="Pagevisited" class="form-control" />
+                <span asp-validation-for="Pagevisited" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Referralsource" class="control-label"></label>
+                <input asp-for="Referralsource" class="form-control" />
+                <span asp-validation-for="Referralsource" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hasregistered" class="control-label"></label>
+                <input asp-for="Hasregistered" class="form-control" />
+                <span asp-validation-for="Hasregistered" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Devicetype" class="control-label"></label>
+                <input asp-for="Devicetype" class="form-control" />
+                <span asp-validation-for="Devicetype" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

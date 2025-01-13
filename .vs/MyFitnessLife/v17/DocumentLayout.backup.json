@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|c:\\users\\sewar\\desktop\\fitness center management\\myfitnesslife\\myfitnesslife\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|c:\\users\\sewar\\desktop\\fitness center management\\myfitnesslife\\myfitnesslife\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|c:\\users\\sewar\\desktop\\fitness center management\\myfitnesslife\\myfitnesslife\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|c:\\users\\sewar\\desktop\\fitness center management\\myfitnesslife\\myfitnesslife\\views\\admin\\charts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|solutionrelative:views\\admin\\charts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|c:\\users\\sewar\\desktop\\fitness center management\\myfitnesslife\\myfitnesslife\\views\\home\\memberprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|solutionrelative:views\\home\\memberprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|c:\\users\\sewar\\desktop\\fitness center management\\myfitnesslife\\myfitnesslife\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{362F35DD-F980-4C88-965A-32D724BD21C1}|MyFitnessLife.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 209,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-13T18:44:14.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Charts.cshtml",
+              "DocumentMoniker": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Views\\Admin\\Charts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Charts.cshtml",
+              "ToolTip": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Views\\Admin\\Charts.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Charts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T17:33:20.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Views\\Home\\MemberProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\MemberProfile.cshtml",
+              "ToolTip": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Views\\Home\\MemberProfile.cshtml",
+              "RelativeToolTip": "Views\\Home\\MemberProfile.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T16:23:32.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwIsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:23:27.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwFcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T16:15:24.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T15:59:02.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

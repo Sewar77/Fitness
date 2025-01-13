@@ -1,0 +1,60 @@
+﻿
+@model MyFitnessLife.Models.User
+@{
+    ViewData["Title"] = "LogIn";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Log In
+    </title>
+    <link href="~/AdminDesign/img/favicon.ico" rel="icon">
+    <meta charset="UTF-8">
+    <style>
+        img{
+            width:200px;
+            background-color:black
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/registrations/registration-3/assets/css/registration-3.css">
+</head>
+
+<body>
+    <!-- Registration 3 - Bootstrap Brain Component -->
+    <section class="p-3 p-md-4 p-xl-5">
+        <div class="container">
+                    <div class="p-3 p-md-4 p-xl-5">
+                       <h2 class="h3">Registration</h2>
+                <form asp-controller="RegisterAndLogin" asp-action="Login" method="post">
+                            <div class="row gy-3 gy-md-4 overflow-hidden">
+                                <div class="col-12">
+                                    <label for="Username" class="form-label">User name <span class="text-danger">*</span></label>
+                                    <input type="text" name="Username" class="form-control" id="Username" placeholder="your username" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="Password" class="form-label">Password <span class="text-danger">*</span></label>
+                            <input type="password" name="Password" class="form-control" id="Password" placeholder="your password" required>
+                            </div>
+                                <div class="col-12">
+                                    <div class="d-grid">
+                                     <button class="btn bsb-btn-xl btn-primary" type="submit"> Log In </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-12">
+                                <hr class="mt-5 mb-4 border-secondary-subtle">
+                                <p class="m-0 text-secondary text-end">Dont have an account? <a asp-action="Register" class="link-primary text-decoration-none">Sign up</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+</body>	
+
+</html>

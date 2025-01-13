@@ -1,0 +1,49 @@
+﻿@model MyFitnessLife.Models.Membershipplan
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Membershipplan</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Planname)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Planname)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Durationinmonths)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Durationinmonths)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Createdat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Createdat)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn bsb-btn-xl btn-primary">Back to List</a>
+</div>

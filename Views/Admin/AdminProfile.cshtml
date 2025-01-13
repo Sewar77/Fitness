@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@model MyFitnessLife.Models.User
+<head>
+    <link href="~/AdminDesign/css/AdminProfile.css" rel="stylesheet">
+    <style>
+        .labels{
+            font-size:20px;
+        }
+        .form-control{
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <form asp-action="AdminProfile" enctype="multipart/form-data" method="post" onsubmit="return validateForm()">
+            <div class="col-md-3 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5" style="color:white">
+                    <img id="profileImagePreview" class="rounded-circle" src="@(@Model?.Imagepath ?? "~/HomeDesign/assets/img/blog/author.png")" alt="Profile Image">
+                    <span class="font-weight-bold">@ViewData["AdminName"]</span>
+
+                </div>
+            </div>
+          
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Admin Profile Settings</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6">
+                            <label asp-for="Fname" class="labels">First Name</label>
+                            <input asp-for="Fname" id="Fname" type="text" class="form-control" placeholder="first name" value="@(Model?.Fname ?? "")" />
+                            <span asp-validation-for="Fname" class="text-danger"></span>
+
+                        </div>
+                    <div class="col-md-6">
+                            <label asp-for="Lname" class="labels">Last Name</label>
+                            <input asp-for="Lname" id="Lname" type="text" class="form-control" placeholder="last name" value="@(@Model?.Lname ?? " ")" />
+                            <span asp-validation-for="Lname" class="text-danger"></span>
+
+                    </div>
+                </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <label asp-for="Username" class="labels">User Name</label>
+                            <input asp-for="Username" id="Username" type="text" class="form-control" placeholder="enter phone number" value='@(@Model?.Username ?? " ")' />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+
+                        </div>
+                 <div class="row mt-3">
+                    <div class="col-md-12">
+                            <label asp-for="Phonenumber" class="labels">Mobile Number</label>
+                            <input asp-for="Phonenumber" id="Phonenumber" type="text" class="form-control" placeholder="enter phone number" value='@(@Model?.Phonenumber ?? " ")' />
+                    </div>
+                    <div class="col-md-12">
+                            <label asp-for="Birthdate" class="labels">Birth Date</label>
+                            <input asp-for="Birthdate" name="Birthdate" id="Birthdate" type="Date" class="form-control" placeholder="enter Birthdate" value='@(@Model?.Birthdate?.ToString("yyyy-MM-dd") ?? "")'/>
+                    </div>
+                            <div class="col-md-12">
+                                <label asp-for="Password" class="labels">Password</label>
+                                <input asp-for="Password" name="Password" id="Password" type="password" class="form-control" placeholder="enter Birthdate" value="@(Model?.Password?? "")"/>
+                            </div>
+                    <div class="col-md-12">
+                        <label asp-for="Gender" class="labels">Gender</label>
+                            <input asp-for="Gender" id="Gender" type="text" class="form-control" placeholder="enter gender" value='@(@Model?.Gender ?? " ")' />
+                    </div>
+                    <div class="col-md-12">
+                            <label asp-for="Email" class="labels">Email</label>
+                            <input asp-for="Email" id="Email" type="text" class="form-control" placeholder="enter email id" value='@(@Model?.Email ?? " ")'>
+                    </div>
+                </div>
+                        <div class="mb-3">
+                            <label asp-for="ImageFile" class="labels">Upload New Profile Image:</label>
+                            <input asp-for="ImageFile" class="form-control form-control-sm bg-dark" type="file" />
+                        </div>
+                        
+                <div class="mt-5 text-center">
+                    <input class="btn btn-primary profile-button" type="submit" />
+
+                    <a asp-controller="Admin" asp-action="Index" class="btn btn-secondary">Back</a>
+                </div>
+            </div>
+            </div>
+            </div>
+        </form>
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+
+        <div class="col-md-4">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center experience">
+                    <span>Edit FitnessLife</span>
+                    <span class="border px-3 p-1 add-experience">
+                        <i class="fa fa-plus"></i>&nbsp;Details
+                    </span>
+                </div>
+                <br>
+                <div class="col-md-12">
+                    <label class="labels">New Name:</label>
+                    <input type="text" class="form-control" placeholder="New Name" value="">
+                </div>
+                <br>
+                <div class="col-md-12">
+                    <label class="labels">Additional Details</label>
+                    <input type="text" class="form-control" placeholder="additional details" value="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/site.js"></script>

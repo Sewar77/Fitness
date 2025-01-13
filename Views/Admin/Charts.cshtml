@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Charts";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+@model dynamic
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Charts Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid pt-4 px-4">
+        <div class="row g-4">
+            <div class="col-sm-12 col-xl-6">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Members</h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <canvas id="worldwide-sales"></canvas>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-6">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Revenue</h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <canvas id="salse-revenue"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Fetch chart data from the controller
+            $.ajax({
+                url: '@Url.Action("GetChartData", "Admin")', // Action to fetch data
+                type: 'GET',
+                success: function (data) {
+                    // Chart for Members
+                    var ctxMembers = document.getElementById('worldwide-sales').getContext('2d');
+                    var membersChart = new Chart(ctxMembers, {
+                        type: 'line', // Type of chart (line, bar, etc.)
+                        data: {
+                            labels: data.Members.Labels, // X-axis labels
+                            datasets: [{
+                                label: 'Members Joined', // Dataset label
+                                data: data.Members.Values, // Data points
+                                borderColor: 'rgb(75, 192, 192)',
+                                fill: false
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+
+                    // Chart for Revenue
+                    var ctxRevenue = document.getElementById('salse-revenue').getContext('2d');
+                    var revenueChart = new Chart(ctxRevenue, {
+                        type: 'bar', // Type of chart (line, bar, etc.)
+                        data: {
+                            labels: data.Revenue.Labels, // X-axis labels
+                            datasets: [{
+                                label: 'Revenue ($)', // Dataset label
+                                data: data.Revenue.Values, // Data points
+                                backgroundColor: 'rgb(255, 159, 64)',
+                                borderColor: 'rgb(255, 159, 64)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                y: {
+                                    beginAtZero: true
+                                }
+                            }
+                        }
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error fetching chart data: " + error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

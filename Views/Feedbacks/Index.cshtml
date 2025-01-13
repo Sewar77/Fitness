@@ -1,0 +1,54 @@
+﻿@model IEnumerable<MyFitnessLife.Models.Feedback>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Feedbacktext)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Submittedat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Approved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Feedbacktext)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Submittedat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Approved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Userid)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Feedbackid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Feedbackid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Feedbackid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

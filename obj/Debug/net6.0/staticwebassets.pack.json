@@ -1,0 +1,2209 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyFitnessLife.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyFitnessLife.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\css\\AdminProfile.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\css\\AdminProfile.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\js\\main.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\AdminDesign\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\css\\AdminProfile.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\css\\AdminProfile.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\AdminDesign\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\AdminDesign\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\AdminDesign\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\js\\main.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\AdminDesign\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\AdminDesign\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\AdminDesign\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\css\\now-ui-dashboard.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\css\\now-ui-dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\css\\now-ui-dashboard.css.map",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\css\\now-ui-dashboard.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\css\\now-ui-dashboard.min.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\css\\now-ui-dashboard.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\demo\\demo.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\demo\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\demo\\demo.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\demo\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\fonts\\nucleo-license.md",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\fonts\\nucleo-license.md"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.eot",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.ttf",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.woff",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.woff2",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\fonts\\nucleo-outline.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\apple-icon.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\apple-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\bg5.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\bg5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\default-avatar.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\default-avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\header.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\mike.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\mike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\now-logo.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\now-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\img\\now-ui-dashboard.gif",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\img\\now-ui-dashboard.gif"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\core\\jquery.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\core\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\now-ui-dashboard.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\now-ui-dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\now-ui-dashboard.js.map",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\now-ui-dashboard.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\now-ui-dashboard.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\now-ui-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\js\\plugins\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\js\\plugins\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_alerts.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_alerts.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_checkboxes-radio.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_checkboxes-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_footers.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_footers.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_images.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_inputs.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_mixins.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_nucleo-outline.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_nucleo-outline.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_page-header.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_page-header.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_responsive.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_sidebar-and-main-panel.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_sidebar-and-main-panel.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-chart.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-chart.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-map.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-map.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-plain.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-plain.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-user.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\cards\\_card-user.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_inputs.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_inputs.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_page-header.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_page-header.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_transparency.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_transparency.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_vendor-prefixes.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\mixins\\_vendor-prefixes.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\plugins\\_plugin-perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assetsMember\\scss\\now-ui-dashboard\\plugins\\_plugin-perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\animated-headline",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\animated-headline.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\animated-headline.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\gijgo.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\gijgo.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\price_rangs.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\price_rangs.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\slicknav.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\style.map",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\style.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\flaticon.html",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\gijgo-material.eot",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\gijgo-material.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\gijgo-material.svg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\gijgo-material.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\gijgo-material.ttf",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\gijgo-material.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\gijgo-material.woff",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\gijgo-material.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\author.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\learn_about_bg.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\learn_about_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\blog\\slide_thumb_1.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\blog\\slide_thumb_1.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\comment\\comment_1.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\comment\\comment_1.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\comment\\comment_2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\comment\\comment_2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\comment\\comment_3.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\comment\\comment_3.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\about.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\about2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\about2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\blog1.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\blog1.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\blog2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\blog2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\contact_form.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\contact_form.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\form.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\form.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\gallery1.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\gallery1.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\gallery2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\gallery2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\gallery3.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\gallery3.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\gallery4.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\gallery4.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\gallery5.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\gallery5.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\qutaion.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\qutaion.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\section_bg01.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\section_bg01.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\section_bg02.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\section_bg02.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\section_bg03.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\section_bg03.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\team1.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\team1.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\team2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\team2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\gallery\\team3.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\gallery\\team3.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\hero\\h1_hero.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\hero\\h1_hero.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\hero\\hero2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\hero\\hero2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\logo\\gym.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\logo\\gym.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\logo\\loder.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\logo\\loder.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\logo\\logo2_footer.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\logo\\logo2_footer.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\logo\\logooo.jpg",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\logo\\logooo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\img\\post\\preview.png"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\animated.headline.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\animated.headline.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\gijgo.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\gijgo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\hover-direction-snake.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\hover-direction-snake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.form.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.paroller.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.paroller.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\mail-script.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\one-page-nav-min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\one-page-nav-min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\price-range.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_about.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_blog_page.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_blog_page.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_bradcam.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_bradcam.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_color.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_color.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_common.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_contact_form.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_contact_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_date_tabs.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_date_tabs.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_elements.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_elements.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_extend.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_gallery.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_gallery.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_h1-hero.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_h1-hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_headerMenu.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_headerMenu.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_overlay.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_overlay.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_services.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_services.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_services_section.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_services_section.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_team.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_team.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_testimonial.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\_wantTowork.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\_wantTowork.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\HomeDesign\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\HomeDesign\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\Images\\✦ ⌇ \uD835\uDC95\uD835\uDC93\uD835\uDC8A\uD835\uDC8F\uD835\uDC82\uD835\uDC93\uD835\uDC8A\uD835\uDC8F\uD835\uDC82.jpg",
+      "PackagePath": "staticwebassets\\Images\\✦ ⌇ \uD835\uDC95\uD835\uDC93\uD835\uDC8A\uD835\uDC8F\uD835\uDC82\uD835\uDC93\uD835\uDC8A\uD835\uDC8F\uD835\uDC82.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\datepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\datepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\datepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\datepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\datepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\datepicker\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\font-awesome-4.7\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\mdi-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\mdi-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\mdi-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\mdi-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\RegisterAndLoginDesign\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\RegisterAndLoginDesign\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\js\\style.js",
+      "PackagePath": "staticwebassets\\js\\style.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\sewar\\Desktop\\Fitness Center Management\\MyFitnessLife\\MyFitnessLife\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyFitnessLife.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MyFitnessLife.props",
+      "PackagePath": "build\\MyFitnessLife.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MyFitnessLife.props",
+      "PackagePath": "buildMultiTargeting\\MyFitnessLife.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MyFitnessLife.props",
+      "PackagePath": "buildTransitive\\MyFitnessLife.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

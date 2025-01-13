@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "PendingFeedbacks";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+@model IEnumerable<MyFitnessLife.Models.Feedback>
+
+
+
+@if (Model == null || !Model.Any())
+{
+    <p>No pending Feedbacks found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Feedback</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var feedback in Model)
+            {
+                <tr>
+                    <td>@feedback.User.Username</td>
+                    <td>@feedback.Feedbacktext</td>
+                    <td>
+                        <form asp-action="ApproveFeedback" asp-controller="Admin" method="post">
+                            <input type="hidden" name="id" value="@feedback.Feedbackid" />
+                            <button type="submit" class="btn btn-success">Approve</button>
+                        </form>
+
+                        <form asp-action="RejectFeedback" asp-controller="Admin" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@feedback.Feedbackid" />
+                            <button type="submit" class="btn btn-danger">Reject</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
