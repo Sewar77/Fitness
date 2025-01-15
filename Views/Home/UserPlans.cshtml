@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+@model IEnumerable<MyFitnessLife.Models.Subscription>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Startdate)</th>
+            <th>@Html.DisplayNameFor(model => model.Enddate)</th>
+            <th>@Html.DisplayNameFor(model => model.Paymentstatus)</th>
+            <th>@Html.DisplayNameFor(model => model.Amount)</th>
+            <th>@Html.DisplayNameFor(model => model.Plan)</th>
+            <th>@Html.DisplayNameFor(model => model.User)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var subscription in Model)
+        {
+            <tr>
+                <td>@subscription.Startdate.ToString("MM/dd/yyyy")</td>
+                <td>@subscription.Enddate.ToString("MM/dd/yyyy")</td>
+                <td>@subscription.Paymentstatus</td>
+                <td>@subscription.Amount</td>
+                <td>@subscription.Plan.Planname</td>
+                <td>@subscription.User.Fname</td>
+            </tr>
+        }
+    </tbody>
+</table>

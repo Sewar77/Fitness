@@ -161,5 +161,55 @@ namespace MyFitnessLife.Controllers
             }
         }
 
+        public IActionResult MonthlyReport()
+        {
+
+            var MonthlyRevenue = _context.Subscriptions
+                .GroupBy(s => new { year = s.Startdate.Year, month = s.Startdate.Month })
+                .Select(g => new
+                {
+                    Year = g.Key.year,
+                    Month = g.Key.month,
+                    TotalRevenue = g.Sum(s => s.Amount)
+                })
+                .OrderBy(r => r.Year).ThenBy(r => r.Month)
+                .ToList();
+
+            var chartData = new
+            {
+                Lables = MonthlyRevenue.Select(m => $"{m.Year} {m.Month}").ToArray(),
+                Revenue = MonthlyRevenue.Select(m => m.TotalRevenue).ToArray()
+            };
+
+            return View(new { MonthlyRevenue, chartData });
+        }
+
+
+        public ActionResult AnnualReport()
+        {
+
+            var AnnualRevenue = _context.Subscriptions
+               .GroupBy(s =>   s.Startdate.Year)
+               .Select(g => new
+               {
+                   Year = g.Key,
+                  
+                   TotalRevenue = g.Sum(s => s.Amount)
+               })
+               .OrderBy(r => r.Year)
+               .ToList();
+
+            var chartData = new
+            {
+                Lables = AnnualRevenue.Select(m => $"{m.Year} ").ToArray(),
+                Revenue =AnnualRevenue.Select(m => m.TotalRevenue).ToArray()
+            };
+
+            return View(new { AnnualRevenue, chartData });
+
+
+           
+        }
+
     }
 }

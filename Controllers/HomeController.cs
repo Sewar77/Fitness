@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyFitnessLife.Models;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace MyFitnessLife.Controllers
@@ -19,7 +20,7 @@ namespace MyFitnessLife.Controllers
 			_context = context;
             _webHostEnvironment = webHostEnvironment;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             ViewData["MemberId"] = HttpContext.Session.GetInt32("MemberId");
             ViewData["MemberEmail"] = HttpContext.Session.GetString("MemberEmail");
@@ -27,27 +28,115 @@ namespace MyFitnessLife.Controllers
             ViewData["MemberLastName"] = HttpContext.Session.GetString("lastname");
             ViewData["MemberPhone"] = HttpContext.Session.GetString("phone");
             ViewData["MemberUsername"] = HttpContext.Session.GetString("username");
-            ViewData["MemberBirthdate"] = HttpContext.Session.GetString("birthdate"); // Birthdate stored in session
+            ViewData["MemberBirthdate"] = HttpContext.Session.GetString("birthdate");
             ViewData["MemberGender"] = HttpContext.Session.GetString("Gender");
 
-            return View();
+            var feedbacks = await _context.Feedbacks.ToListAsync();
+            var membershipPlans = await _context.Membershipplans.ToListAsync();
+
+            // Create a Tuple of the feedbacks and membership plans
+            var viewModel = new Tuple<IEnumerable<Feedback>, IEnumerable<Membershipplan>>(
+                feedbacks ?? new List<Feedback>(),
+                membershipPlans ?? new List<Membershipplan>()
+            );
+
+            return View(viewModel);
         }
+
 
         public IActionResult Aboutus()
 		{
 			return View();
         }
+        public IActionResult Subsicription(decimal? id)
+		{
+            var plan = _context.Membershipplans.FirstOrDefault(p => p.Planid == id);
+
+            if (plan == null)
+            {
+                return NotFound();
+            }
+
+            return View(plan);
+        }
+
+        [HttpPost]
+        public IActionResult ProcessSubscription(decimal PlanId, string Name, string Email, decimal card)
+        {
+            try
+            {
+                // Step 1: Retrieve the plan details
+                var plan = _context.Membershipplans.FirstOrDefault(p => p.Planid == PlanId);
+                if (plan == null)
+                {
+                    throw new Exception("Invalid Plan.");
+                }
+
+                // Step 2: Validate the card details
+                var bankAccount = _context.Banks.FirstOrDefault(b => b.Card == card);
+                if (bankAccount == null)
+                {
+                    throw new Exception("Invalid Card Details.");
+                }
+
+                // Step 3: Check if sufficient balance exists
+                if (bankAccount.Balance < plan.Price)
+                {
+                    throw new Exception("Insufficient balance.");
+                }
+
+                // Step 4: Deduct the amount
+                bankAccount.Balance -= plan.Price;
+                _context.Banks.Update(bankAccount);
+                _context.SaveChanges();
+
+                // Step 5: Create a new subscription record for the user
+                var subscription = new Subscription
+                {
+                    Planid = plan.Planid,
+                    Startdate = DateTime.Now
+                };
+
+                _context.Subscriptions.Add(subscription);
+                _context.SaveChanges();
+
+                // Step 6: Return success message and redirect to UserPlans
+                ViewBag.Message = "Subscription successful!";
+                return RedirectToAction("UserPlans");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"sewar shorman: {ex.Message}");
+                ViewBag.Error = ex.Message;
+                return View("Error");
+            }
+        }
+
+
+
+
         public IActionResult HomeMember()
         {
             var plans = _context.Membershipplans.ToList();
             return View(plans);
         }
 
+
         public IActionResult Services()
 		{
 			return View();
 		}
-		 public IActionResult MemberIndex()
+
+        public IActionResult UserPlans()
+        {
+            var subscriptions = _context.Subscriptions
+                                        .Include(s => s.Plan) // Ensure the plan details are included
+                                        .ToList();
+            return View(subscriptions);
+        }
+
+
+        public IActionResult MemberIndex()
 		{
             var feedbacks = _context.Feedbacks.ToList(); // Retrieve feedbacks from the database
             return View(feedbacks);

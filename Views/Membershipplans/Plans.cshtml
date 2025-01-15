@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Plans";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+
+@model IEnumerable<MyFitnessLife.Models.Membershipplan>
+
+    <head>
+    <style>
+        table.table {
+            font-size: 1.5rem; /* Larger font size */
+        }
+        table.table th,
+        table.table td {
+            padding: 1.5rem; /* Increased padding for more spacing */
+            text-align: left; /* Align text to the left */
+        }
+    </style>
+    </head>
+
+
+<h1>Membership Plans</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Plan Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Subsecribe</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var plan in Model)
+        {
+            <tr>
+                <td>@plan.Planname</td>
+                <td>@plan.Description</td>
+                <td>@plan.Price</td>
+                <td>
+                    <a role="button" asp-action="Subsicription" asp-route-id="@plan.Planid" asp-controller="Home" class="btn btn-primary">
+                        Subscribe
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
