@@ -1,0 +1,226 @@
+﻿@model dynamic
+@{
+   Layout = "~/Views/Shared/AdminLayout.cshtml";
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monthly Revenue</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <style> 
+    /* Custom button styles */ 
+    .dt-button { 
+        background-color: #4CAF50; /* Green background */ 
+        color: white; /* White text */ 
+        border: 1px solid #4CAF50; /* Border color matching the background */ 
+        padding: 8px 15px; /* Padding for the buttons */ 
+        margin: 5px; /* Space between buttons */ 
+        font-size: 14px; /* Button font size */ 
+        cursor: pointer; /* Cursor on hover */ 
+        border-radius: 5px; /* Rounded corners */ 
+    } 
+ 
+    /* Hover effect for buttons */ 
+    .dt-button:hover { 
+        background-color: #45a049; /* Darker green on hover */ 
+        border-color: #45a049; /* Border color on hover */ 
+    } 
+ 
+    /* Specific style for the PDF button */ 
+    .dt-button.buttons-pdf { 
+        background-color: #FF5733; /* Red background for PDF */ 
+        border-color: #FF5733; /* Border color for PDF */ 
+    } 
+ 
+    /* Hover effect for the PDF button */ 
+    .dt-button.buttons-pdf:hover { 
+        background-color: #e04f2f; /* Darker red for PDF */ 
+        border-color: #e04f2f; /* Border color on hover */ 
+    } 
+ 
+    /* Specific style for the Excel button */ 
+    .dt-button.buttons-excel { 
+        background-color: #1E90FF; /* Blue background for Excel */ 
+        border-color: #1E90FF; /* Border color for Excel */ 
+    } 
+ 
+    /* Hover effect for the Excel button */ 
+    .dt-button.buttons-excel:hover { 
+        background-color: #1c7ac4; /* Darker blue for Excel */ 
+        border-color: #1c7ac4; /* Border color on hover */ 
+    } 
+ 
+    /* Specific style for the CSV button */ 
+    .dt-button.buttons-csv { 
+        background-color: #FFD700; /* Yellow background for CSV */ 
+        border-color: #FFD700; /* Border color for CSV */ 
+    } 
+ 
+    /* Hover effect for the CSV button */ 
+    .dt-button.buttons-csv:hover { 
+        background-color: #e6b800; /* Darker yellow for CSV */ 
+        border-color: #e6b800; /* Border color on hover */ 
+    } 
+ 
+    /* Specific style for the Copy button */ 
+    .dt-button.buttons-copy { 
+        background-color: #8A2BE2; /* Purple background for Copy */ 
+        border-color: #8A2BE2; /* Border color for Copy */ 
+    } 
+ 
+    /* Hover effect for the Copy button */ 
+    .dt-button.buttons-copy:hover { 
+        background-color: #7a2ed3; /* Darker purple for Copy */ 
+        border-color: #7a2ed3; /* Border color on hover */ 
+    } 
+ 
+    /* Custom styles for the search input */
+        .dataTables_filter input {
+            padding: 6px 12px; /* Padding for the search input */
+            border-radius: 5px; /* Rounded corners */
+            border: 1px solid #ccc; /* Light gray border */
+            font-size: 14px; /* Font size */
+            margin-left: 10px; /* Space between the label and input */
+            background-color: #f1f1f1 !important; /* Force background color with !important */
+        }
+ 
+    /* Custom styles for the DataTable */ 
+    #table { 
+        width: 100%; 
+        border-collapse: collapse; 
+        margin-bottom: 20px; 
+    } 
+ 
+    #table th, #table td { 
+        padding: 12px; 
+        text-align: left; 
+    } 
+ 
+    #table th { 
+        background-color: #f2f2f2; 
+        color: #333; 
+    } 
+ 
+    /* Custom styles for the chart */ 
+    #revenueChart { 
+        max-width: 800px; 
+        margin: 0 auto; 
+    } 
+</style>
+
+
+</head>
+<body>
+
+    <link href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css" rel="stylesheet" />
+
+    <h2>Monthly Revenue Table</h2>
+
+    <!-- Table displaying the monthly revenue -->
+    <table border="1" style="width: 100%; border-collapse: collapse;" id="table">
+        <thead>
+            <tr>
+                <th>Year-Month</th>
+                <th>Total Revenue</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.MonthlyRevenue)
+            {
+                <tr>
+                    <td>@item.Year-@item.Month</td>
+                    <td>@item.TotalRevenue.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    <br /><br />
+    <h2>Monthly Revenue Chart</h2>
+    <!-- Canvas element for the chart -->
+    <canvas id="revenueChart" width="400" height="200"></canvas>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script> 
+    <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js" defer></script> 
+ 
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js" defer></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js" defer></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('#table').DataTable({
+                dom: 'Bfrtip',
+                buttons: [
+                    'copyHtml5',
+                    'excelHtml5',
+                    'csvHtml5',
+                    {
+                        extend: 'pdfHtml5',
+                        text: 'Export to PDF',
+                        customize: function (doc) {
+                            // Get the chart canvas and convert it to an image
+                            var chartCanvas = document.getElementById('revenueChart');
+                            if (chartCanvas) {
+                                var chartImage = chartCanvas.toDataURL('image/png'); // Convert the chart to a PNG image
+                                // Add the chart image to the PDF
+                                doc.content.unshift({
+                                    image: chartImage,
+                                    width: 500, // You can adjust the width
+                                    alignment: 'center'
+                                });
+                            }
+                        }
+                    },
+                   
+                ]
+            });
+        });
+    </script>
+    
+    
+    <script>
+        // Get the data passed from the controller for the chart
+        var labels = @Html.Raw(Json.Serialize(Model.chartData.Lables));
+        var revenue = @Html.Raw(Json.Serialize(Model.chartData.Revenue));
+
+        // Get the chart context
+        var ctx = document.getElementById('revenueChart').getContext('2d');
+
+        // Create the chart
+        var revenueChart = new Chart(ctx, {
+            type: 'bar', // Change this to 'line' for a line chart
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Total Revenue',
+                    data: revenue,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)', // Bar color
+                    borderColor: 'rgba(75, 192, 192, 1)', // Border color
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

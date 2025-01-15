@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Subsicription";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+@model MyFitnessLife.Models.Membershipplan
+
+<div class="container mt-4" style="max-width: 600px; font-size: 1.2rem;">
+    <h2 style="font-size: 2rem; font-weight: bold; text-align: center; margin-bottom: 20px;">Subscribe to @Model.Planname</h2>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Price:</strong> @Model.Price</p>
+    <form asp-action="ProcessSubscription" method="post" style="margin-top: 20px;">
+        <input type="hidden" name="PlanId" value="@Model.Planid" />
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="name" style="font-size: 1.2rem;">Your Name</label>
+            <input type="text" class="form-control" id="name" name="Name" required
+                   style="height: 50px; font-size: 1.1rem; padding: 10px;" />
+        </div>
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="email" style="font-size: 1.2rem;">Email Address</label>
+            <input type="email" class="form-control" id="email" name="Email" required
+                   style="height: 50px; font-size: 1.1rem; padding: 10px;" />
+        </div>
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label for="card" style="font-size: 1.2rem;">Payment Details</label>
+            <input type="number" class="form-control" id="card" name="card" placeholder="Card Number" required
+                   style="height: 50px; font-size: 1.1rem; padding: 10px;" />
+        </div>
+        <button type="submit" class="btn btn-success" asp-action="UserPlans"
+                style="width: 100%; height: 60px; font-size: 1.2rem; font-weight: bold;">
+            Confirm and Pay
+        </button>
+    </form>
+</div>

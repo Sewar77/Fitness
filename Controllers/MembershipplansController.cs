@@ -154,6 +154,13 @@ namespace MyFitnessLife.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
+        public async Task<IActionResult> Plans()
+        {
+            var membershipPlans = await _context.Membershipplans.ToListAsync();
+            return View(membershipPlans);
+        }
+
         private bool MembershipplanExists(decimal id)
         {
           return (_context.Membershipplans?.Any(e => e.Planid == id)).GetValueOrDefault();
