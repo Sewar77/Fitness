@@ -165,5 +165,12 @@ namespace MyFitnessLife.Controllers
         {
           return (_context.Membershipplans?.Any(e => e.Planid == id)).GetValueOrDefault();
         }
+
+        public IActionResult Subscribe()
+        {
+            return View();
+        }
+
+
     }
 }

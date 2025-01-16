@@ -1,4 +1,4 @@
-﻿@model MyFitnessLife.Models.Feedback
+﻿@model MyFitnessLife.Models.UserFeedback
 
 @{
     ViewData["Title"] = "Create";
@@ -24,31 +24,40 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Username" class="control-label"></label>
-                <input asp-for="Username" class="form-control" />
-                <span asp-validation-for="Username" class="text-danger"></span>
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                <strong>Success:</strong> @TempData["SuccessMessage"]
             </div>
-            <div class="form-group">
-                <label asp-for="Feedbacktext" class="control-label"></label>
-                <textarea asp-for="Feedbacktext" class="form-control"></textarea>
-                <span asp-validation-for="Feedbacktext" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+        }
+
         @if (!ViewData.ModelState.IsValid)
         {
             <div class="alert alert-danger">
+                <strong>Error:</strong>
                 @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
                 {
                     <p>@error.ErrorMessage</p>
                 }
             </div>
         }
+
+        <form asp-action="Create">
+            <div class="form-group">
+                <label  class="control-label"></label>
+                <input class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Feedbacktext" class="control-label"></label>
+                <textarea asp-for="Feedbacktext" class="form-control"></textarea>
+                <span asp-validation-for="Feedbacktext" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Feedback" class="btn btn-primary" />
+            </div>
+        </form>
+
     </div>
 </div>
 

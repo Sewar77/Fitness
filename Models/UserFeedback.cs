@@ -7,6 +7,7 @@ namespace MyFitnessLife.Models
         public decimal Feedbackid { get; set; }
 
         public decimal Userid { get; set; }
+        public string? Fname { get; set; }
 
         public string Feedbacktext { get; set; } = null!;
 

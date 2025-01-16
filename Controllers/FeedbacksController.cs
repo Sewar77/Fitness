@@ -47,42 +47,47 @@ namespace MyFitnessLife.Controllers
         // GET: Feedbacks/Create
         public IActionResult Create()
         {
-            ViewData["Userid"] = new SelectList(_context.Users, "Userid", "Userid");
+            ViewData["Userid"] = new SelectList(_context.Users, "Userid", "Username");
             return View();
         }
 
-        // POST: Feedbacks/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Username,Feedbacktext")] UserFeedback userFeedback)
+        public async Task<IActionResult> Create([Bind("Feedbacktext")] UserFeedback userFeedback)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Username == userFeedback.Username);
-            if (user == null)
+            // Retrieve Userid as an integer from session
+            var userId = HttpContext.Session.GetInt32("MemberId");
+
+            if (userId == null)
             {
-                ModelState.AddModelError("Username", "The username does not exist. Please enter a valid username.");
-                return View(userFeedback); // Return the view with the model so the user can correct the input
-            }
+                return NotFound("UserID not found");
+            } 
+            // Create Feedback object with UserId cast to decimal
             var feedback = new Feedback
             {
-                Userid = user.Userid,        // Assign the UserId based on the found user
-                Feedbacktext = userFeedback.Feedbacktext,  // Feedback text entered by the user
-                Submittedat = DateTime.Now,   // Set the date and time when the feedback is submitted
-                Approved = false             // Default to false until the admin approves
+                Userid = (decimal)userId, // Cast to decimal
+                Feedbacktext = userFeedback.Feedbacktext,
+                Submittedat = DateTime.Now,
+                Approved = false
             };
 
             if (ModelState.IsValid)
             {
+                // Add and save Feedback
                 _context.Feedbacks.Add(feedback);
                 await _context.SaveChangesAsync();
-
-                return RedirectToAction("MemberIndex", "Home");
+                TempData["SuccessMessage"] = "Your feedback has been submitted and is awaiting admin approval.";
+                return RedirectToAction("Create");
             }
-            return View(userFeedback);
+
+            return View(userFeedback); // Return the original model if invalid
         }
+
+
+
+
 
 
 

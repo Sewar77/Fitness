@@ -33,7 +33,7 @@ namespace MyFitnessLife.Controllers
                         Username = user.Username,
                         Password = user.Password,
                         Gender = user.Gender,
-                        Roleid = user.Roleid,
+                        Roleid = user.Roleid ?? default(decimal),
                         Email = user.Email,
                         Birthdate = user.Birthdate,
                         Phonenumber = user.Phonenumber,
@@ -84,7 +84,7 @@ namespace MyFitnessLife.Controllers
                         HttpContext.Session.SetString("AdminGender", auth.Gender ?? string.Empty);
                         return RedirectToAction("Index", "Admin");
 
-                        case 2://Customer 
+                        case 2://Trainer 
                         HttpContext.Session.SetString("TrainerName", auth.Username ?? string.Empty);
                         HttpContext.Session.SetInt32("TrainerId", (int)auth.Userid);
                         HttpContext.Session.SetString("TrainerEmail", auth.Email ?? string.Empty);
@@ -93,9 +93,10 @@ namespace MyFitnessLife.Controllers
                         HttpContext.Session.SetString("TrainerlName", auth.Lname ?? string.Empty);
                         HttpContext.Session.SetString("TrainerPhoneNumber", auth.Phonenumber ?? string.Empty);
                         HttpContext.Session.SetString("TrainerPassword", auth.Password ?? string.Empty);
-                        HttpContext.Session.SetString("TrainerGender", auth.Gender ?? string.Empty); return RedirectToAction("MemberIndex", "Home");
+                        HttpContext.Session.SetString("TrainerGender", auth.Gender ?? string.Empty); 
+                        return RedirectToAction("TrainerIndex", "Home");
 
-					    case 3://Customer 
+					    case 3://Member 
                         HttpContext.Session.SetString("MemberName", auth.Username ?? string.Empty);
                         HttpContext.Session.SetInt32("MemberId", (int)auth.Userid);
                         HttpContext.Session.SetString("MemberEmail", auth.Email ?? string.Empty);
@@ -104,7 +105,8 @@ namespace MyFitnessLife.Controllers
                         HttpContext.Session.SetString("MemberlName", auth.Lname ?? string.Empty);
                         HttpContext.Session.SetString("MemberPhoneNumber", auth.Phonenumber ?? string.Empty);
                         HttpContext.Session.SetString("MemberPassword", auth.Password ?? string.Empty);
-                        HttpContext.Session.SetString("MemberGender", auth.Gender ?? string.Empty); return RedirectToAction("MemberIndex", "Home");
+                        HttpContext.Session.SetString("MemberGender", auth.Gender ?? string.Empty); 
+                        return RedirectToAction("MemberIndex", "Home");
 
                         default:
                             ModelState.AddModelError(string.Empty, "Invalid role assigned.");

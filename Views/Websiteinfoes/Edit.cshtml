@@ -1,0 +1,52 @@
+﻿@model MyFitnessLife.Models.Websiteinfo
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Websiteinfo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Websitetid" />
+            <div class="form-group">
+                <label asp-for="Title1" class="control-label"></label>
+                <input asp-for="Title1" class="form-control" />
+                <span asp-validation-for="Title1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title2" class="control-label"></label>
+                <input asp-for="Title2" class="form-control" />
+                <span asp-validation-for="Title2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Openhour" class="control-label"></label>
+                <input asp-for="Openhour" class="form-control" />
+                <span asp-validation-for="Openhour" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input asp-for="ImageFile" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

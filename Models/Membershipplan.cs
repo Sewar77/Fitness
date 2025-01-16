@@ -17,5 +17,7 @@ public partial class Membershipplan
 
     public DateTime? Createdat { get; set; }
 
-    public virtual ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
+    public virtual ICollection<Subscriptions> Subscriptions { get; set; } = new List<Subscriptions>();
+    //public virtual ICollection<User> TrainerID { get; set; } = new List<User>();
+
 }

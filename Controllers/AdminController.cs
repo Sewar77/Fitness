@@ -77,34 +77,24 @@ namespace MyFitnessLife.Controllers
             return View(data); // Pass the list of User objects to the view
         }
 
-        [HttpGet]
-        public IActionResult AdminProfile()
-        {
-            return View();
-        }
-
-
-
-        
-    
 
 
     [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AdminProfile(Profile user)
+        public IActionResult AdminProfile()
         {
-            if (ModelState.IsValid)
-            {
-                if (_context.Profiles == null)
-                {
-                    _context.Update(user);
-                    await _context.SaveChangesAsync();
+            //if (ModelState.IsValid)
+            //{
+            //    if (_context.Profile == null)
+            //    {
+            //        _context.Update(user);
+            //        await _context.SaveChangesAsync();
 
-                    return RedirectToAction(nameof(Index));
-                }
-                return RedirectToAction(nameof(PendingFeedbacks));
-            } 
-            return View(user);
+            //        return RedirectToAction(nameof(Index));
+            //    }
+            //    return RedirectToAction(nameof(PendingFeedbacks));
+            //} 
+            return View();
         }
 
         public async Task<IActionResult> PendingFeedbacks()
@@ -210,6 +200,13 @@ namespace MyFitnessLife.Controllers
 
            
         }
+
+        public ActionResult Charts()
+        {
+            return View();
+        }
+
+
 
     }
 }
