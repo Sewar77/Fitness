@@ -58,7 +58,7 @@ namespace MyFitnessLife.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Subscriptionid,Userid,Planid,Startdate,Enddate,Paymentstatus,Amount")] Subscription subscription)
+        public async Task<IActionResult> Create([Bind("Subscriptionid,Userid,Planid,Startdate,Enddate,Paymentstatus,Amount")] Subscriptions subscription)
         {
             if (ModelState.IsValid)
             {
@@ -94,7 +94,7 @@ namespace MyFitnessLife.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(decimal id, [Bind("Subscriptionid,Userid,Planid,Startdate,Enddate,Paymentstatus,Amount")] Subscription subscription)
+        public async Task<IActionResult> Edit(decimal id, [Bind("Subscriptionid,Userid,Planid,Startdate,Enddate,Paymentstatus,Amount")] Subscriptions subscription)
         {
             if (id != subscription.Subscriptionid)
             {

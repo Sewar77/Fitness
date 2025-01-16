@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MyFitnessLife.Models;
 
-public partial class Subscription
+public partial class Subscriptions
 {
     public decimal Subscriptionid { get; set; }
 

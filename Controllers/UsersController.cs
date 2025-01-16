@@ -163,5 +163,45 @@ namespace MyFitnessLife.Controllers
         {
           return (_context.Users?.Any(e => e.Userid == id)).GetValueOrDefault();
         }
+
+
+
+        public IActionResult Profile()
+        {
+            var id = HttpContext.Session.GetInt32("TrainerId");
+            ViewBag.id = id;
+
+            var result = from plan in _context.Membershipplans
+                         
+                         join sub in _context.Subscriptions on plan.Planid equals sub.Planid
+                         join us in _context.Users on sub.Userid equals us.Userid
+                         where sub.Userid == id // Add condition if necessary
+                         group new { sub, us } by new { plan.Planid, plan.Planname, plan.Price,plan.Description,plan.Durationinmonths } into grouped
+                         select new GroupedMembershipPlanViewModes
+                         {
+                             Planid = (int)grouped.Key.Planid,
+                             Planname = grouped.Key.Planname,
+                             Price = grouped.Key.Price,
+                             Description=grouped.Key.Description,
+                             Durationinmonths=grouped.Key.Durationinmonths,
+                            
+                             Subscriptions = grouped.Select(g => new TrainerWithUserandSubsecribtions
+                             {
+                                 Userid = (int)g.us.Userid,
+                                 SubscriptionId = (int)g.sub.Subscriptionid,
+                                 MembershipPlanId = (int)grouped.Key.Planid,
+                             }).ToList()
+                         };
+
+            return View(result.ToList());
+        }
+
+
+
+
+
+
+
+
     }
 }

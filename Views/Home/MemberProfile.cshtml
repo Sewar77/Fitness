@@ -152,25 +152,25 @@
                             </div>
                             <div class="card-body">
                                 <form asp-action="MemberProfile" asp-controller="Home" asp-route-id="@Model?.Userid" enctype="multipart/form-data">
-                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div asp-validation-summary="All" class="text-danger"></div>
                                     <input type="hidden" asp-for="Userid" />
                                     <div class="row">
                                         <div class="col-md-5 pr-1">
                                             <div class="form-group">
                                                 <label>ID (disabled)</label>
-                                                <input type="text" class="form-control" disabled="" value="@ViewData["MemberID"]">
+                                                <input type="text" class="form-control" disabled="">
                                             </div>
                                         </div>
                                         <div class="col-md-3 px-1">
                                             <div class="form-group">
                                                 <label>Username</label>
-                                                <input asp-for="Username" type="text" class="form-control" placeholder="Username" value="@ViewData["MemberName"]">
+                                                <input asp-for="Username" type="text" class="form-control" placeholder="Username" >
                                             </div>
                                         </div>
                                         <div class="col-md-4 pl-1">
                                             <div class="form-group"> 
                                                 <label for="exampleInputEmail1">Email address</label>
-                                                <input asp-for="Email" type="email" class="form-control" placeholder="Email" value="@ViewData["MemberEmail"]">
+                                                <input asp-for="Email" type="email" class="form-control" placeholder="Email">
                                             </div>
                                         </div>
                                     </div>
@@ -178,13 +178,13 @@
                                         <div class="col-md-6 pr-1">
                                             <div class="form-group">
                                                 <label>First Name</label>
-                                                <input asp-for="Fname" type="text" class="form-control" placeholder="First Name" value="@ViewData["MemberFirstName"]">
+                                                <input asp-for="Fname" type="text" class="form-control" placeholder="First Name">
                                             </div>
                                         </div>
                                         <div class="col-md-6 pl-1">
                                             <div class="form-group">
                                                 <label>Last Name</label>
-                                                <input asp-for="Lname" type="text" class="form-control" placeholder="Last Name" value="@ViewData["MemberLastName"]">
+                                                <input asp-for="Lname" type="text" class="form-control" placeholder="Last Name">
                                             </div>
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Birth date</label>
-                                                <input asp-for="Birthdate" type="date" class="form-control" placeholder="Date of Birth" value="@ViewData["MemberBirthdate"]">
+                                                <input asp-for="Birthdate" type="date" class="form-control" placeholder="Date of Birth">
                                             </div>
                                         </div>
                                     </div>
@@ -200,13 +200,13 @@
                                         <div class="col-md-4 pr-1">
                                             <div class="form-group">
                                                 <label>Phone Number</label>
-                                                <input asp-for="Phonenumber" type="tel" class="form-control" placeholder="Phone Number" value="@ViewData["MemberPhone"]">
+                                                <input asp-for="Phonenumber" type="tel" class="form-control" placeholder="Phone Number">
                                             </div>
                                         </div>
                                         <div class="col-md-4 pr-1">
                                             <div class="form-group">
                                                 <label>Gender</label>
-                                                <input asp-for="Gender" type="tel" class="form-control" placeholder="Gender" value="@ViewData["MemberGender"]">
+                                                <input asp-for="Gender" type="tel" class="form-control" placeholder="Gender">
                                             </div>
                                         </div>
                                         <div class="row">
@@ -229,7 +229,6 @@
                                     </div>                               
                                     <div>
                                         <input style="background-color:#EB1616" class="btn btn-primary profile-button" type="submit" />
-
                                         <a asp-controller="Home" asp-action="MemberIndex" class="btn btn-secondary">Back</a>
                                     </div>
                                 </form>
@@ -254,7 +253,7 @@
                             <div class="card-body">
                                 <div class="author">
                                     <a href="#">
-                                        <img class="avatar border-gray" src="@ViewData["MemberImagePath"] ?? ~ /HomeDesign/assetsMember/img/mike.jpg" alt="...">
+                                        <img class="avatar border-gray" src="@ViewData["MemberImagePath"] ?? '~/HomeDesign/assetsMember/img/mike.jpg'" alt="...">
                                         <h5 class="title">Mike Andrew</h5>
                                     </a>
                                     <p class="description">

@@ -2,12 +2,24 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
+<head>
+    <link href="~/AdminDesign/css/AdminProfile.css" rel="stylesheet">
+    <style>
+        .labels {
+            font-size: 20px;
+        }
 
+        .form-control {
+            border: 1px solid white;
+        }
+    </style>
+</head>
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Create New</a> 
 </p>
 <table class="table">
     <thead>
@@ -41,9 +53,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Imagepath)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Role)
@@ -83,9 +92,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Imagepath)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Role.Roleid)

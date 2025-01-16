@@ -1,0 +1,61 @@
+﻿@model IEnumerable<MyFitnessLife.Models.Websiteinfo>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Openhour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Openhour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                <img src="~/Images/@item.Image" width="100" height="100" />
+                @*  @Html.DisplayFor(modelItem => item.Image) *@
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Websitetid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Websitetid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Websitetid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

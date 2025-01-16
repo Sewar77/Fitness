@@ -17,7 +17,7 @@ public partial class Invoice
 
     public string? Pdfpath { get; set; }
 
-    public virtual Subscription Subscription { get; set; } = null!;
+    public virtual Subscriptions Subscription { get; set; } = null!;
 
     public virtual User User { get; set; } = null!;
 }

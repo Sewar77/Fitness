@@ -1,5 +1,4 @@
-﻿@model IEnumerable<MyFitnessLife.Models.Feedback>
-
+﻿@model Tuple<IEnumerable<Feedback>, IEnumerable<User>>
 @{
     ViewData["Title"] = "Home Page";
     Layout = "~/Views/Shared/HomeLayout.cshtml";
@@ -35,7 +34,7 @@
                                 </nav>
                             </div>
                             <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                <a asp-action="MemberProfile" asp-controller="Home" class="btn header-btn">My Profile</a>
+                                <a asp-action="MemberProfile" class="btn header-btn">My Profile</a>
                             </div>
 
                         </div>
@@ -208,13 +207,13 @@
                         <!-- Testimonial Start -->
                         <div class="h1-testimonial-active">
                             <!-- Single Testimonial -->
-                            @if (Model.Any()) // Membership plan collection is Model.Item2
+                            @if (Model.Item1.Any()) // Membership plan collection is Model.Item2
                             {
-                                @foreach (var item in Model)
+                                @foreach (var item in Model.Item1)
                                 {
                                     <div class="single-testimonial">
                                         <div class="testimonial-caption">
-                                            <p>@item.Feedbacktext <br />@item.Username</p>
+                                            <p>@item.Feedbacktext <br /></p>
                                         </div>
                                     </div>
                                 }
@@ -339,66 +338,36 @@
     <div class="team-area pb-150">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="~/HomeDesign/assets/img/gallery/team1.png" alt="">
-                            <div class="team-caption">
-                                <span>Creative derector</span>
-                                <h3><a href="#">Jhon Sunsaev</a></h3>
-                                <!-- Blog Social -->
-                                <div class="team-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
+                @if (Model.Item2.Any())
+                {
+                    @foreach (var item in Model.Item2)
+                    {
+                        @if (@item.Roleid == 2)
+                        {
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="single-team mb-30">
+                                    <div class="team-img">
+                                        <!-- Ensure correct path to image -->
+                                        <img src="@Url.Content("~/HomeDesign/assets/img/gallery/team1.png")" alt="@item.Fname @item.Lname" />
+                                        <div class="team-caption">
+                                            <span>@item.Username</span>
+                                            <h3><a asp-action="TrainerPlans">@item.Fname @item.Lname</a></h3>
+                                            <!-- Blog Social -->
+                                            <div class="team-social">
+                                                <ul>
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="~/HomeDesign/assets/img/gallery/team2.png" alt="">
-                            <div class="team-caption">
-                                <span>Creative derector</span>
-                                <h3><a href="#">Jhon Sunsaev</a></h3>
-                                <!-- Blog Social -->
-                                <div class="team-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="~/HomeDesign/assets/img/gallery/team3.png" alt="">
-                            <div class="team-caption">
-                                <span>Creative derector</span>
-                                <h3><a href="#">Jhon Sunsaev</a></h3>
-                                <!-- Blog Social -->
-                                <div class="team-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        }
+                    }
+                }
             </div>
         </div>
     </div>
