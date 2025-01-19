@@ -30,6 +30,5 @@ namespace MyFitnessLife.Models
 
         //[NotMapped]
        // public virtual IFormFile? ImageFile { get; set; }
-        public string? Status { get; set; }
     }
 }

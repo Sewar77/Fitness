@@ -1,11 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using MimeKit;
+using MailKit.Net.Smtp;
+using MailKit.Security;
+using QuestPDF.Fluent;
 using MyFitnessLife.Models;
+using QuestPDF;
+using QuestPDF.Fluent;
+using QuestPDF.Infrastructure;
+using iText.Kernel.Pdf;
+using iText.Layout.Element;
+
 
 namespace MyFitnessLife.Controllers
 {
@@ -21,9 +30,9 @@ namespace MyFitnessLife.Controllers
         // GET: Membershipplans
         public async Task<IActionResult> Index()
         {
-              return _context.Membershipplans != null ? 
-                          View(await _context.Membershipplans.ToListAsync()) :
-                          Problem("Entity set 'ModelContext.Membershipplans'  is null.");
+            return _context.Membershipplans != null ?
+                        View(await _context.Membershipplans.ToListAsync()) :
+                        Problem("Entity set 'ModelContext.Membershipplans'  is null.");
         }
 
         // GET: Membershipplans/Details/5
@@ -149,7 +158,7 @@ namespace MyFitnessLife.Controllers
             {
                 _context.Membershipplans.Remove(membershipplan);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -163,12 +172,7 @@ namespace MyFitnessLife.Controllers
 
         private bool MembershipplanExists(decimal id)
         {
-          return (_context.Membershipplans?.Any(e => e.Planid == id)).GetValueOrDefault();
-        }
-
-        public IActionResult Subscribe()
-        {
-            return View();
+            return (_context.Membershipplans?.Any(e => e.Planid == id)).GetValueOrDefault();
         }
 
 

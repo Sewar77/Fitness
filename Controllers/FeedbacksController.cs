@@ -75,7 +75,6 @@ namespace MyFitnessLife.Controllers
 
             if (ModelState.IsValid)
             {
-                // Add and save Feedback
                 _context.Feedbacks.Add(feedback);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Your feedback has been submitted and is awaiting admin approval.";

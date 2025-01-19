@@ -1,7 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Subscribe";
-    Layout = "~/Views/Shared/HomeLayout.cshtml";
+    Layout = null;// "~/Views/Shared/HomeLayout.cshtml";
 }
+
+@model MyFitnessLife.Models.Membershipplan
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,16 +20,25 @@
         <h2 class="text-center">Subscribe to Plan</h2>
 
         <!-- Plan Details Section -->
-        <div class="card mb-4">
-            <div class="card-header">
-                <h4>@Model.Plan.Planname</h4>
+       
+
+        @if (Model != null)
+        {
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>@Model.Planname</h4>
+                </div>
+                <div class="card-body">
+                    <p><strong>Description:</strong> @Model.Description</p>
+                    <p><strong>Price:</strong> @Model.Price</p>
+                    <p><strong>Duration:</strong> @Model.Durationinmonths months</p>
+                </div>
             </div>
-            <div class="card-body">
-                <p><strong>Description:</strong> @Model.Plan.Description</p>
-                <p><strong>Price:</strong> @Model.Plan.Price</p>
-                <p><strong>Duration:</strong> @Model.Plan.Durationinmonths months</p>
-            </div>
-        </div>
+        }
+        else
+        {
+            <p class="text-danger">Plan details are not available at the moment.</p>
+        }
 
         <!-- Credit Card Form Section -->
         <div class="card">
@@ -35,21 +46,22 @@
                 <h5>Enter Payment Information</h5>
             </div>
             <div class="card-body">
-                <form method="post" asp-action="ProcessSubscription">
-                    <div class="mb-3">
-                        <label for="Fname" class="form-label">Credit Card Number</label>
-                        <input type="text" class="form-control" id="Fname" name="Fname" required />
-                    </div>
-                    <div class="mb-3">
-                        <label for="Email" class="form-label">Credit Card Number</label>
-                        <input type="email" class="form-control" id="Email" name="Email" required />
-                    </div>
+                <form asp-action="Subscribe" method="post">
                     <div class="mb-3">
                         <label for="card" class="form-label">Credit Card Number</label>
-                        <input type="text" class="form-control" id="card" name="card" required />
+                        <input type="number" class="form-control" id="card" name="card" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="number" class="form-control" id="price" name="price" value="@Model.Price" readonly />
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" required />
                     </div>
                     <button type="submit" class="btn btn-primary">Complete Subscription</button>
                 </form>
+
             </div>
         </div>
     </div>
