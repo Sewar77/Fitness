@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MyFitnessLife.Models;
 using System.Collections.Generic;
@@ -9,16 +10,16 @@ using System.Numerics;
 
 namespace MyFitnessLife.Controllers
 {
-	public class HomeController : Controller
-	{
-		private readonly ILogger<HomeController> _logger;
+    public class HomeController : Controller
+    {
+        private readonly ILogger<HomeController> _logger;
         private readonly ModelContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
         public HomeController(ILogger<HomeController> logger, ModelContext context, IWebHostEnvironment webHostEnvironment)
         {
-			_logger = logger;
-			_context = context;
+            _logger = logger;
+            _context = context;
             _webHostEnvironment = webHostEnvironment;
         }
         public async Task<IActionResult> Index(Whatoffer whatoffer)
@@ -36,7 +37,7 @@ namespace MyFitnessLife.Controllers
             ViewBag.WebsiteinfosAddress = _context.Websiteinfos.Select(p => p.Address).FirstOrDefault();
 
 
-            var WhatOffer =_context.Whatoffers.ToList();
+            var WhatOffer = _context.Whatoffers.ToList();
 
             ViewData["MemberId"] = HttpContext.Session.GetInt32("MemberId");
             ViewData["MemberEmail"] = HttpContext.Session.GetString("MemberEmail");
@@ -49,7 +50,7 @@ namespace MyFitnessLife.Controllers
 
             var feedbacks = await _context.Feedbacks.ToListAsync();
             var membershipPlans = await _context.Membershipplans.ToListAsync();
-           // var users = await _context.Users.ToListAsync();
+            // var users = await _context.Users.ToListAsync();
 
             // Create a Tuple of the feedbacks and membership plans
             var viewModel = new Tuple<IEnumerable<Feedback>, IEnumerable<Membershipplan>, IEnumerable<Whatoffer>>(
@@ -58,12 +59,12 @@ namespace MyFitnessLife.Controllers
                 WhatOffer
             );
 
-            return View( viewModel);
+            return View(viewModel);
         }
 
 
         public IActionResult Aboutus()
-		{
+        {
             ViewBag.AboutTitle = _context.Aboutus.Select(p => p.Title).FirstOrDefault();
             ViewBag.AboutText1 = _context.Aboutus.Select(p => p.Text1).FirstOrDefault();
             ViewBag.AboutText2 = _context.Aboutus.Select(p => p.Text2).FirstOrDefault();
@@ -82,9 +83,9 @@ namespace MyFitnessLife.Controllers
 
 
         public IActionResult Services()
-		{
-			return View();
-		}
+        {
+            return View();
+        }
         public async Task<IActionResult> TrainerIndex(decimal trainerId)
         {
             // Fetch all users, workouts, membership plans, and trainer assignments
@@ -136,7 +137,7 @@ namespace MyFitnessLife.Controllers
 
 
         public async Task<IActionResult> MemberIndex()
-		{
+        {
             var feedbacks = await _context.Feedbacks.ToListAsync();
             var users = await _context.Users.ToListAsync();
 
@@ -149,134 +150,108 @@ namespace MyFitnessLife.Controllers
             return View(viewModel);
         }
 
-		public IActionResult Schedule()
-		{
-			return View();
-		}
-
-
-        [HttpGet]
-        [Authorize]
-        public async Task<IActionResult> MemberProfile(decimal? id)
+        public IActionResult Schedule()
         {
-            var memberIdFromSession = HttpContext.Session.GetInt32("MemberId");
-
-            if (!id.HasValue || !memberIdFromSession.HasValue || memberIdFromSession.Value != id)
-            {
-                return RedirectToAction("Login", "Account");
-            }
-
-            var userEntity = await _context.Users.FirstOrDefaultAsync(u => u.Userid == id);
-
-            if (userEntity == null)
-            {
-                return NotFound();
-            }
-
-            // Populate ViewData for the view
-            ViewData["MemberDetails"] = new
-            {
-                userEntity.Userid,
-                userEntity.Username,
-                userEntity.Email,
-                userEntity.Fname,
-                userEntity.Lname,
-                userEntity.Phonenumber,
-                Birthdate = userEntity.Birthdate?.ToString("yyyy-MM-dd"),
-                userEntity.Gender,
-                userEntity.Imagepath
-            };
-
-            // Return a strongly-typed profile model to the view
-            return View(new Profile
-            {
-                Userid = userEntity.Userid,
-                Fname = userEntity.Fname,
-                Lname = userEntity.Lname,
-                Email = userEntity.Email,
-                Username = userEntity.Username,
-                Phonenumber = userEntity.Phonenumber,
-                Birthdate = userEntity.Birthdate,
-                Gender = userEntity.Gender,
-                Imagepath = userEntity.Imagepath
-            });
+            return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> MemberProfile(Profile profileModel)
+
+
+
+
+
+
+        public async Task<IActionResult> MemberProfile(decimal? id)
         {
-            if (!ModelState.IsValid)
+            var userid = HttpContext.Session.GetInt32("MemberId");
+            if (userid == null || _context.Users == null)
             {
-                return View(profileModel);
+                return NotFound();
             }
+            id = Convert.ToDecimal(userid);
+            if (_context.Users == null)
+            {
+                return NotFound();
+            }
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
 
-            var userEntity = await _context.Users.FindAsync(profileModel.Userid);
 
-            if (userEntity == null)
+
+
+        [HttpPost]
+        public async Task<IActionResult> MemberProfile([Bind("Userid,Username,Password,Roleid,Fname,Lname,Email,Phonenumber,Createdat,Gender,Birthdate,Imagepath")] Profile user)
+        {
+            var sessionId = HttpContext.Session.GetInt32("MemberId");
+            if (sessionId == null)
             {
                 return NotFound();
             }
 
-            // Handle image upload if a file is provided
-            if (profileModel.ImageFile != null && profileModel.ImageFile.Length > 0)
+            var userId = Convert.ToDecimal(sessionId);
+
+            if (userId != user.Userid)
             {
-                string allowedExtensions = ".jpg,.jpeg,.png,.gif";
-                string fileExtension = Path.GetExtension(profileModel.ImageFile.FileName).ToLower();
+                return NotFound();
+            }
 
-                if (!allowedExtensions.Contains(fileExtension))
-                {
-                    ModelState.AddModelError("", "Invalid file type. Only .jpg, .jpeg, .png, and .gif are allowed.");
-                    return View(profileModel);
-                }
-
-                string wwwRootPath = _webHostEnvironment.WebRootPath;
-                string fileName = Guid.NewGuid().ToString() + fileExtension;
-                string path = Path.Combine(wwwRootPath, "Images", fileName);
-
+            if (ModelState.IsValid)
+            {
                 try
                 {
-                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    var existingUser = await _context.Users.FindAsync(userId);
+                    if (existingUser == null)
                     {
-                        await profileModel.ImageFile.CopyToAsync(fileStream);
+                        return NotFound();
                     }
 
-                    userEntity.Imagepath = fileName; // Update image path in the database
+                    // Validate Roleid exists in the Roles table
+                    if (user.Roleid.HasValue)
+                    {
+                        var roleExists = await _context.Roles.AnyAsync(r => r.Roleid == user.Roleid.Value);
+                        if (!roleExists)
+                        {
+                            ModelState.AddModelError("Roleid", "Invalid Roleid. The specified role does not exist.");
+                            ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid);
+                            return View(user);
+                        }
+                    }
+
+                    // Update user properties
+                    existingUser.Username = user.Username;
+                    existingUser.Password = string.IsNullOrEmpty(user.Password) ? existingUser.Password : user.Password;
+                    existingUser.Roleid = user.Roleid ?? existingUser.Roleid;
+                    existingUser.Email = user.Email;
+                    existingUser.Birthdate = user.Birthdate;
+                    existingUser.Phonenumber = user.Phonenumber;
+                    existingUser.Fname = user.Fname;
+                    existingUser.Lname = user.Lname;
+                    existingUser.Imagepath = user.Imagepath ?? existingUser.Imagepath;
+
+                    await _context.SaveChangesAsync();
                 }
-                catch (Exception ex)
+                catch (DbUpdateConcurrencyException)
                 {
-                    ModelState.AddModelError("", $"File upload failed: {ex.Message}");
-                    return View(profileModel);
+                    throw;
                 }
+                catch (DbUpdateException)
+                {
+                    // Log or inspect dbEx to diagnose the specific issue
+                    ModelState.AddModelError("", "An error occurred while updating the database. Please check your inputs.");
+                    ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid);
+                    return View(user);
+                }
+
+                return RedirectToAction(nameof(MemberProfile));
             }
 
-            // Update user fields
-            userEntity.Fname = profileModel.Fname;
-            userEntity.Lname = profileModel.Lname;
-            userEntity.Email = profileModel.Email;
-            userEntity.Username = profileModel.Username;
-            userEntity.Phonenumber = profileModel.Phonenumber;
-            userEntity.Birthdate = profileModel.Birthdate;
-            userEntity.Gender = profileModel.Gender;
-
-            try
-            {
-                _context.Users.Update(userEntity);
-                await _context.SaveChangesAsync();
-
-                // Update session data
-                HttpContext.Session.SetString("MemberName", userEntity.Username ?? string.Empty);
-                HttpContext.Session.SetString("MemberEmail", userEntity.Email ?? string.Empty);
-                HttpContext.Session.SetString("MemberFirstName", userEntity.Fname ?? string.Empty);
-                HttpContext.Session.SetString("MemberLastName", userEntity.Lname ?? string.Empty);
-
-                return RedirectToAction(nameof(MemberProfile), new { id = userEntity.Userid });
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", $"An error occurred while saving data: {ex.Message}");
-                return View(profileModel);
-            }
+            ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid); // Adjust RoleName
+            return View(user);
         }
 
 
@@ -285,7 +260,6 @@ namespace MyFitnessLife.Controllers
 			return View();
 		}
 
-        
 
 		public IActionResult Blog()
 		{
@@ -300,9 +274,18 @@ namespace MyFitnessLife.Controllers
 		{
 			return View();
 		}
+        public IActionResult message()
+		{
+            TempData["SuccessMessage"] = "We will contact with you as fast as possible ";
+            return View();
+        }
 
 
-		public IActionResult Privacy()
+
+
+        
+
+        public IActionResult Privacy()
 		{
 			return View();
 		}
@@ -312,5 +295,122 @@ namespace MyFitnessLife.Controllers
 		{
 			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 		}
-	}
+
+
+
+
+
+
+
+        public async Task<IActionResult> TrainerProfile(decimal? id)
+        {
+            var userid = HttpContext.Session.GetInt32("TrainerId");
+            if (userid == null || _context.Users == null)
+            {
+                return NotFound();
+            }
+            id = Convert.ToDecimal(userid);
+            if (_context.Users == null)
+            {
+                return NotFound();
+            }
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> TrainerProfile([Bind("Userid,Username,Password,Roleid,Fname,Lname,Email,Phonenumber,Createdat,Gender,Birthdate,Imagepath")] Profile user)
+        {
+            var sessionId = HttpContext.Session.GetInt32("TrainerId");
+            if (sessionId == null)
+            {
+                return NotFound();
+            }
+
+            var userId = Convert.ToDecimal(sessionId);
+
+            if (userId != user.Userid)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var existingUser = await _context.Users.FindAsync(userId);
+                    if (existingUser == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // Validate Roleid exists in the Roles table
+                    if (user.Roleid.HasValue)
+                    {
+                        var roleExists = await _context.Roles.AnyAsync(r => r.Roleid == user.Roleid.Value);
+                        if (!roleExists)
+                        {
+                            ModelState.AddModelError("Roleid", "Invalid Roleid. The specified role does not exist.");
+                            ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid);
+                            return View(user);
+                        }
+                    }
+
+                    // Update user properties
+                    existingUser.Username = user.Username;
+                    existingUser.Password = string.IsNullOrEmpty(user.Password) ? existingUser.Password : user.Password;
+                    existingUser.Roleid = user.Roleid ?? existingUser.Roleid;
+                    existingUser.Email = user.Email;
+                    existingUser.Birthdate = user.Birthdate;
+                    existingUser.Phonenumber = user.Phonenumber;
+                    existingUser.Fname = user.Fname;
+                    existingUser.Lname = user.Lname;
+                    existingUser.Imagepath = user.Imagepath ?? existingUser.Imagepath;
+
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    throw;
+                }
+                catch (DbUpdateException)
+                {
+                    // Log or inspect dbEx to diagnose the specific issue
+                    ModelState.AddModelError("", "An error occurred while updating the database. Please check your inputs.");
+                    ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid);
+                    return View(user);
+                }
+
+                return RedirectToAction(nameof(TrainerProfile));
+            }
+
+            ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid); // Adjust RoleName
+            return View(user);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 }

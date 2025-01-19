@@ -39,7 +39,6 @@ namespace MyFitnessLife.Controllers
                         Phonenumber = user.Phonenumber,
                         Fname = user.Fname,
                         Lname = user.Lname,
-                        Status = "Approved"
                     };
                     try
                     {

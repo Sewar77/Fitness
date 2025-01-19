@@ -2,66 +2,88 @@
 
 @{
     ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/HomeLayout.cshtml";
+    Layout = null;
 }
 
 <head>
+    <title>
+        FeedBack
+    </title>
+    <link href="~/AdminDesign/img/favicon.ico" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
         .control-label {
-            font-size:30px;
+            font-size: 20px;
+            font-weight: bold;
         }
-        .form-control{
-            width:400px;
-            font-size:20px;
-            height:60px;
+
+        .form-control {
+            font-size: 18px;
+            height: 50px;
+        }
+
+        .btn-custom {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+        }
+
+            .btn-custom:hover {
+                background-color: #c82333;
+            }
+
+        .alert-custom {
+            font-size: 16px;
+            font-weight: bold;
         }
     </style>
 </head>
 
-<h1>Create</h1>
+<h1 class="text-center text-danger">Create Feedback</h1>
 
-<h4>Feedback</h4>
+<h4 class="text-center">We Value Your Feedback!</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        @if (TempData["SuccessMessage"] != null)
-        {
-            <div class="alert alert-success">
-                <strong>Success:</strong> @TempData["SuccessMessage"]
-            </div>
-        }
 
-        @if (!ViewData.ModelState.IsValid)
-        {
-            <div class="alert alert-danger">
-                <strong>Error:</strong>
-                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-                {
-                    <p>@error.ErrorMessage</p>
-                }
-            </div>
-        }
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
 
-        <form asp-action="Create">
-            <div class="form-group">
-                <label  class="control-label"></label>
-                <input class="form-control"/>
-            </div>
-            <div class="form-group">
-                <label asp-for="Feedbacktext" class="control-label"></label>
-                <textarea asp-for="Feedbacktext" class="form-control"></textarea>
-                <span asp-validation-for="Feedbacktext" class="text-danger"></span>
-            </div>
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-custom">
+                    <strong>Success:</strong> @TempData["SuccessMessage"]
+                </div>
+            }
 
-            <div class="form-group">
-                <input type="submit" value="Submit Feedback" class="btn btn-primary" />
-            </div>
-        </form>
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger alert-custom">
+                    <strong>Error:</strong>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <p>@error.ErrorMessage</p>
+                    }
+                </div>
+            }
 
+            <form asp-action="Create">
+                <div class="form-group mb-3">
+                    <label asp-for="Feedbacktext" class="control-label">Your Feedback</label>
+                    <textarea asp-for="Feedbacktext" class="form-control" placeholder="Share your thoughts..."></textarea>
+                    <span asp-validation-for="Feedbacktext" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <input type="submit" value="Submit Feedback" class="btn btn-custom w-100" />
+                </div>
+            </form>
+
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="MemberIndex" asp-controller="Home">Back to Home</a>
+<div class="text-center mt-4">
+    <a asp-action="MemberIndex" asp-controller="Home" class="btn btn-link">Back to Home</a>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

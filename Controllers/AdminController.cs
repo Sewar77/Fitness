@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyFitnessLife.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MyFitnessLife.Controllers
 {
@@ -77,26 +78,6 @@ namespace MyFitnessLife.Controllers
             return View(data); // Pass the list of User objects to the view
         }
 
-
-
-    [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult AdminProfile()
-        {
-            //if (ModelState.IsValid)
-            //{
-            //    if (_context.Profile == null)
-            //    {
-            //        _context.Update(user);
-            //        await _context.SaveChangesAsync();
-
-            //        return RedirectToAction(nameof(Index));
-            //    }
-            //    return RedirectToAction(nameof(PendingFeedbacks));
-            //} 
-            return View();
-        }
-
         public async Task<IActionResult> PendingFeedbacks()
         {
             var pendingFeedback = await _context.Feedbacks
@@ -138,19 +119,11 @@ namespace MyFitnessLife.Controllers
             return RedirectToAction("PendingFeedbacks");
         }
 
-        public class AccountController : Controller
+        [HttpGet]
+        public IActionResult Logout()
         {
-            // Other action methods (login, etc.)
-
-            // Logout action
-            public IActionResult Logout()
-            {
-                HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-                // Redirect to the home page or login page after logging out
-                return RedirectToAction("Index", "Home");
-            }
+            return RedirectToAction("Login", "RegisterAndLogin");
         }
-
         public IActionResult MonthlyReport()
         {
 
@@ -205,6 +178,120 @@ namespace MyFitnessLife.Controllers
         {
             return View();
         }
+
+
+
+
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> AdminProfile(decimal? id)
+        {
+            var userid = HttpContext.Session.GetInt32("AdminId");
+            if (userid == null || _context.Users == null)
+            {
+                return NotFound();
+            }
+            id = Convert.ToDecimal(userid);
+            if (_context.Users == null)
+            {
+                return NotFound();
+            }
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> AdminProfile([Bind("Userid,Username,Password,Roleid,Fname,Lname,Email,Phonenumber,Gender,Birthdate,ImageFile")] Profile user)
+        {
+            var sessionId = HttpContext.Session.GetInt32("AdminId");
+            if (sessionId == null)
+            {
+                return NotFound();
+            }
+
+            var userId = Convert.ToDecimal(sessionId);
+
+            if (userId != user.Userid)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var existingUser = await _context.Users.FindAsync(userId);
+                    if (existingUser == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // Validate Roleid exists in the Roles table
+                    if (user.Roleid.HasValue)
+                    {
+                        var roleExists = await _context.Roles.AnyAsync(r => r.Roleid == user.Roleid.Value);
+                        if (!roleExists)
+                        {
+                            ModelState.AddModelError("Roleid", "Invalid Roleid. The specified role does not exist.");
+                            ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid);
+                            return View(user);
+                        }
+                    }
+
+                    // Update user properties
+                    existingUser.Username = user.Username;
+                    existingUser.Password = string.IsNullOrEmpty(user.Password) ? existingUser.Password : user.Password;
+                    existingUser.Roleid = user.Roleid ?? existingUser.Roleid;
+                    existingUser.Email = user.Email;
+                    existingUser.Birthdate = user.Birthdate;
+                    existingUser.Phonenumber = user.Phonenumber;
+                    existingUser.Fname = user.Fname;
+                    existingUser.Lname = user.Lname;
+                    existingUser.Imagepath = user.Imagepath ?? existingUser.Imagepath;
+
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    throw;
+                }
+                catch (DbUpdateException)
+                {
+                    // Log or inspect dbEx to diagnose the specific issue
+                    ModelState.AddModelError("", "An error occurred while updating the database. Please check your inputs.");
+                    ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid);
+                    return View(user);
+                }
+
+                return RedirectToAction(nameof(AdminProfile));
+            }
+
+            ViewData["Roleid"] = new SelectList(_context.Roles, "Roleid", "RoleName", user.Roleid); // Adjust RoleName
+            return View(user);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

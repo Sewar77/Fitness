@@ -169,11 +169,13 @@
                             {
                                 @foreach (var item in Model.Item1)
                                 {
+                                    if (item.Approved == true){ 
                                     <div class="single-testimonial">
                                         <div class="testimonial-caption">
                                             <p>@item.Feedbacktext <br /></p>
                                         </div>
-                                    </div>
+                                        </div>
+                                    }
                                 }
                             }
                             else
@@ -854,7 +856,7 @@
                             </div>
                         </div>
                         <!--End Section Tittle  -->
-                        <form id="contact-form" action="#" method="POST">
+                        <form id="contact-form" asp-action="message" method="POST">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-box user-icon mb-30">
@@ -891,6 +893,13 @@
                                     </div>
                                 </div>
                             </div>
+                            @if (TempData["SuccessMessage"] != null)
+                            {
+                                <div class="alert alert-success alert-custom">
+                                    <strong>Success:</strong> @TempData["SuccessMessage"]
+                                </div>
+                            }
+
                         </form>
                     </div>
                 </div>

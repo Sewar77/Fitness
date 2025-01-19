@@ -21,28 +21,36 @@
 
 <h1>Membership Plans</h1>
 
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Plan Name</th>
-            <th>Description</th>
-            <th>Price</th>
-            <th>Subsecribe</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var plan in Model)
-        {
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
             <tr>
-                <td>@plan.Planname</td>
-                <td>@plan.Description</td>
-                <td>@plan.Price</td>
-                <td>
-                    <a role="button" asp-action="Subscribe" asp-route-id="@plan.Planid" class="btn btn-primary">
-                        Subscribe
-                    </a>
-                </td>
+                <th>Plan Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Subscribe</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var plan in Model)
+            {
+                <tr>
+                    <td>@plan.Planname</td>
+                    <td>@plan.Description</td>
+                    <td>@plan.Price</td>
+                    <td>
+                        <a role="button" asp-action="Subscribe" asp-route-id="@plan.Planid" class="btn btn-primary">
+                            Subscribe
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-danger">No membership plans are available.</p>
+}
+

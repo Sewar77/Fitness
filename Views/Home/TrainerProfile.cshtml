@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Profile";
-    Layout = null; 
+    Layout = null;
 }
 @model MyFitnessLife.Models.User
 
@@ -37,40 +37,35 @@
                 <span class="simple-text logo-mini">
                     My Profile
                 </span>
-                <a asp-action="MemberIndex" class="simple-text logo-normal">
+                <a asp-action="TrainerIndex" class="simple-text logo-normal">
                     Go to Home
                 </a>
             </div>
             <div class="sidebar-wrapper" id="sidebar-wrapper">
                 <ul class="nav">
                     <li class="active ">
-                        <a asp-action="MemberProfile">
+                        <a asp-action="TrainerProfile">
                             <i class="now-ui-icons design_app"></i>
                             <p>My Dashboard</p>
                         </a>
                     </li>
+                    
                     <li>
-                        <a asp-action="Create" asp-controller="Feedbacks">
-                            <i class="now-ui-icons education_atom"></i>
-                            <p>FeedBacks</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a asp-action="Create" asp-controller="Subscriptions">
+                        <a asp-action="Create" asp-controller="Workouts">
                             <i class="now-ui-icons location_map-big"></i>
-                            <p>My Subscriptions</p>
+                            <p>My WorkOuts</p>
                         </a>
                     </li>
                     <li>
-                        <a href="./notifications.html">
+                        <a asp-action="TrainerPlans" asp-controller="Users">
                             <i class="now-ui-icons ui-1_bell-53"></i>
-                            <p>Notifications</p>
+                            <p>My memberships plan</p>
                         </a>
                     </li>
                     <li>
-                        <a href="./user.html">
+                        <a asp-action="TrainerPlans" asp-controller="Users">
                             <i class="now-ui-icons users_single-02"></i>
-                            <p>My Trainers</p>
+                            <p>My Trainees</p>
                         </a>
                     </li>
                 </ul>
@@ -88,7 +83,7 @@
                                 <span class="navbar-toggler-bar bar3"></span>
                             </button>
                         </div>
-                        <a class="navbar-brand" href="#pablo">User Profile</a>
+                        <a class="navbar-brand" href="#pablo">Trainer @Model.Fname Profile</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -151,7 +146,7 @@
                                 <h5 class="title">Edit Profile</h5>
                             </div>
                             <div class="card-body">
-                                <form asp-action="MemberProfile" asp-controller="Home" asp-route-id="@Model?.Userid"
+                                <form asp-action="TrainerProfile" asp-controller="Home" asp-route-id="@Model?.Userid"
                                       enctype="multipart/form-data">
                                     <div asp-validation-summary="All" class="text-danger"></div>
                                     <input type="hidden" asp-for="Userid" />
@@ -165,11 +160,11 @@
                                         <div class="col-md-3 px-1">
                                             <div class="form-group">
                                                 <label asp-for="Username">Username</label>
-                                                <input asp-for="Username" type="text" class="form-control" placeholder="Username" >
+                                                <input asp-for="Username" type="text" class="form-control" placeholder="Username">
                                             </div>
                                         </div>
                                         <div class="col-md-4 pl-1">
-                                            <div class="form-group"> 
+                                            <div class="form-group">
                                                 <label asp-for="Email">Email address</label>
                                                 <input asp-for="Email" type="email" class="form-control" placeholder="Email">
                                             </div>
@@ -224,13 +219,13 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>About Me</label>
-                                                <textarea id ="aboutMe" rows="4" cols="80" class="form-control" placeholder="Here can be your description" value="Mike">Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</textarea>
+                                                <textarea id="aboutMe" rows="4" cols="80" class="form-control" placeholder="Here can be your description" value="Mike">I am a Trainer, my name is @Model.Fname</textarea>
                                             </div>
                                         </div>
-                                    </div>                               
+                                    </div>
                                     <div>
                                         <input style="background-color:#EB1616" class="btn btn-primary profile-button" type="submit" />
-                                        <a asp-controller="Home" asp-action="MemberIndex" class="btn btn-secondary">Back</a>
+                                        <a asp-controller="Home" asp-action="TrainerIndex" class="btn btn-secondary">Back</a>
                                     </div>
                                 </form>
                                 @if (!ViewData.ModelState.IsValid)
@@ -261,10 +256,10 @@
                                         @Model?.Fname
                                     </p>
                                 </div>
-                                <p id ="description" class="description text-center">
-                                    "Lamborghini Mercy <br>
-                                    Your chick she so thirsty <br>
-                                    I'm in that two seat Lambo"
+                                <p id="description" class="description text-center">
+                                   @Model?.Fname <br>
+                                    @Model?.Lname <br>
+                                   @Model?.Username
                                 </p>
                             </div>
                             <hr>

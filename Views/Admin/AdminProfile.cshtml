@@ -16,9 +16,13 @@
     </style>
 </head>
 
+
 <div class="container rounded bg-white mt-5 mb-5">
     <div class="row">
-        <form asp-action="AdminProfile" enctype="multipart/form-data" method="post" onsubmit="return validateForm()">
+        <form asp-action="AdminProfile" enctype="multipart/form-data" asp-route-id="@Model?.Userid"
+              enctype="multipart/form-data" method="post" onsubmit="return validateForm()">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input type="hidden" asp-for="Userid" />
             <div class="col-md-3 border-right">
                 <div class="d-flex flex-column align-items-center text-center p-3 py-5" style="color:white">
                     <img id="profileImagePreview" class="rounded-circle" src="@(@Model?.Imagepath ?? "~/HomeDesign/assets/img/blog/author.png")" alt="Profile Image">
@@ -35,50 +39,65 @@
                 <div class="row mt-2">
                     <div class="col-md-6">
                             <label asp-for="Fname" class="labels">First Name</label>
-                            <input asp-for="Fname" id="Fname" type="text" class="form-control" placeholder="first name" value="@(Model?.Fname ?? "")" />
+                            <input asp-for="Fname" id="Fname" type="text" class="form-control" placeholder="first name" />
                             <span asp-validation-for="Fname" class="text-danger"></span>
 
                         </div>
                     <div class="col-md-6">
                             <label asp-for="Lname" class="labels">Last Name</label>
-                            <input asp-for="Lname" id="Lname" type="text" class="form-control" placeholder="last name" value="@(@Model?.Lname ?? " ")" />
+                            <input asp-for="Lname" id="Lname" type="text" class="form-control" placeholder="last name"/>
                             <span asp-validation-for="Lname" class="text-danger"></span>
+
 
                     </div>
                 </div>
                     <div class="row mt-3">
                         <div class="col-md-12">
                             <label asp-for="Username" class="labels">User Name</label>
-                            <input asp-for="Username" id="Username" type="text" class="form-control" placeholder="enter phone number" value='@(@Model?.Username ?? " ")' />
+                            <input asp-for="Username" id="Username" type="text" class="form-control" placeholder="enter phone number"/>
                             <span asp-validation-for="Username" class="text-danger"></span>
+                            <span asp-validation-for="Username" class="text-danger"></span>
+
 
                         </div>
                  <div class="row mt-3">
                     <div class="col-md-12">
                             <label asp-for="Phonenumber" class="labels">Mobile Number</label>
-                            <input asp-for="Phonenumber" id="Phonenumber" type="text" class="form-control" placeholder="enter phone number" value='@(@Model?.Phonenumber ?? " ")' />
+                            <input asp-for="Phonenumber" id="Phonenumber" type="text" class="form-control" placeholder="enter phone number"  />
+                                <span asp-validation-for="Phonenumber" class="text-danger"></span>
+
                     </div>
                     <div class="col-md-12">
                             <label asp-for="Birthdate" class="labels">Birth Date</label>
-                            <input asp-for="Birthdate" name="Birthdate" id="Birthdate" type="Date" class="form-control" placeholder="enter Birthdate" value='@(@Model?.Birthdate?.ToString("yyyy-MM-dd") ?? "")'/>
+                            <input asp-for="Birthdate" name="Birthdate" id="Birthdate" type="Date" class="form-control" placeholder="enter Birthdate"/>
+                                <span asp-validation-for="Birthdate" class="text-danger"></span>
+
                     </div>
                             <div class="col-md-12">
                                 <label asp-for="Password" class="labels">Password</label>
-                                <input asp-for="Password" name="Password" id="Password" type="password" class="form-control" placeholder="enter Birthdate" value="@(Model?.Password?? "")"/>
+                                <input asp-for="Password" name="Password" id="Password" type="password" class="form-control" placeholder="enter Birthdate"/>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+
                             </div>
                     <div class="col-md-12">
                         <label asp-for="Gender" class="labels">Gender</label>
-                            <input asp-for="Gender" id="Gender" type="text" class="form-control" placeholder="enter gender" value='@(@Model?.Gender ?? " ")' />
+                            <input asp-for="Gender" id="Gender" type="text" class="form-control" placeholder="enter gender"/>
+                                <span asp-validation-for="Gender" class="text-danger"></span>
+
                     </div>
                     <div class="col-md-12">
                             <label asp-for="Email" class="labels">Email</label>
-                            <input asp-for="Email" id="Email" type="text" class="form-control" placeholder="enter email id" value='@(@Model?.Email ?? " ")'>
-                    </div>
+                            <input asp-for="Email" id="Email" type="text" class="form-control" placeholder="enter email id" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+
+                        </div>
                 </div>
                         <div class="mb-3">
                             <label asp-for="ImageFile" class="labels">Upload New Profile Image:</label>
                             <input asp-for="ImageFile" class="form-control form-control-sm bg-dark" type="file" />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
                         </div>
+
                         
                 <div class="mt-5 text-center">
                     <input class="btn btn-primary profile-button" type="submit" />
